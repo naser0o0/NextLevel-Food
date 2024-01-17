@@ -2,7 +2,7 @@
 export default function MealsLayout({children}) {
   return (
     <>
-    <p>Meals Layout</p>
+    <h3>Meals Layout </h3>
     {children}
     </>
   )
