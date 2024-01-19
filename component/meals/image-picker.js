@@ -15,10 +15,10 @@ export default function ImagePicker({ label, name }) {
     const file = event.target.files[0];
 
     if (!file) {
-        setPickedImage(null);
+      setPickedImage(null);
       return;
     }
-
+    // Hier wird ein neues FileReader-Objekt erstellt. Der FileReader ist eine in JavaScript integrierte API, die es ermöglicht, Dateien asynchron zu lesen.
     const fileReader = new FileReader();
     fileReader.onload = () => {
       setPickedImage(fileReader.result);
