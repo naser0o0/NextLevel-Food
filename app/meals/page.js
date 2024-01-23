@@ -16,9 +16,10 @@ export default function page() {
 
   return (
     <>
+    <h1>Meals</h1>
       <header className={classes.header}>
         <h1>
-          Delicious meals, create{" "}
+          Delicious meals, create
           <span className={classes.highlight}>by you</span>
         </h1>
         <p>

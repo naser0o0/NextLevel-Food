@@ -12,6 +12,7 @@ export default function MealDetailsPage({ params }) {
   meal.instructions = meal.instructions.replace(/\n/g, '<br />');
   return (
     <>
+    <h1>Meal Details Page</h1>
       <header className={classes.header}>
         <div className={classes.image}>
           <Image src={meal.image} alt={meal.title} fill />
